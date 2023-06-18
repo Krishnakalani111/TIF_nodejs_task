@@ -28,4 +28,4 @@ app.use("/v1/member", MemberRouter)
 app.use("/v1/role",RoleRouter) 
 app.listen(port, () => {
   console.log(`server running on ${port}`);
-});
+})
